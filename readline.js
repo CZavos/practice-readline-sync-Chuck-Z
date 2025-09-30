@@ -5,4 +5,4 @@ let name3 = readline.question("Enter your middle initial: ");
 let year = readline.questionInt("Enter the year that you were born: ");
 let age = readline.questionInt("Enter your age: ");
 let presentYear = year + age;
-console.log("Your full name is " + name1 + " " + name2 + " " + name3 + ", and you were born in " + year + " and you are " + age + " years old. The current year must be " + presentYear + ".");
+console.log("Your full name is " + name1 + " " + name3 + ". " + name2 + ", and you were born in " + year + " and you are " + age + " years old. The current year must be " + presentYear + ".");
